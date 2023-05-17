@@ -28,7 +28,7 @@ This project is to use Laravel to build a web application and publish APIs devel
 <p>Regarding web application, it doesn't require authentication from user, and it focuses on Post and Comment. In addition, users are allow to CRUD on Post and Comment. This web application is styled by TailwindCss for simple layouts. </p>
  <p> In terms of APIs, there are routes including Log In, and CRUD routes of Post and Category. For login route, feel free to use credential provided as key-value of form request - email: long@gmail.com ; password: 123456. After logging, please store token responded for other CRUD Routes because it requires authentication</p>
  
- <p>General details:</br>
+ <p>Brief:</br>
  - 1 Post has many Comments (1-many) </br>
  - Post and Category have many-many relationship </br>
  - Regarding API, only authorised users can edit / delete their Posts or Categories created </br>
@@ -36,10 +36,6 @@ This project is to use Laravel to build a web application and publish APIs devel
  - Comment has Force Delete</br>
  - Database migration, Seeder, Factory</br>
  - PHP Unit tests for APIs actions</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 * [![Laravel][Laravel.com]][Laravel-url]
@@ -147,9 +143,5 @@ Project Link: [https://github.com/nganlong0510/laravel-project](https://github.c
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
 [Tailwindcss.com]: https://img.shields.io/badge/TailwindCss-563D7C?style=for-the-badge&logo=TailwindCss&logoColor=blue
 [Tailwind-url]:https://tailwindcss.com/
